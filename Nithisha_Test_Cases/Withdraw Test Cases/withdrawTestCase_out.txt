@@ -1,0 +1,90 @@
+
+Transaction History for Account: 1304, Holder Nithisha Sathishkumar by fund.
+Money Market: $0
+  W 1304 0 200
+Prime Money Market: $400
+  D 1304 1 500
+  W 1304 1 100
+500 Index Fund: $0
+  W 1304 4 0
+International Fund: $0
+  D 1304 8 1000
+  W 1304 8 1000
+
+Transaction History for Account: 42, Holder Tracy Pham by fund.
+Money Market: $100
+  W 42 0 100
+Prime Money Market: $0
+  D 42 1 300
+  W 42 1 300
+
+Transaction History for Account: 10000, Holder Shaun Cushman by fund.
+Long-Term Bond: $400
+  D 10000 2 500
+  W 10000 2 100
+Short-Term Bond: $0
+  D 10000 3 500
+  W 10000 3 500
+
+Transaction History for Account: 123, Holder Shyam Ramesh by fund.
+Money Market: $200
+  W 123 0 -200 (Failed)
+  W 123 0 1000 (Failed)
+
+Account Balances:
+Tracy Pham Account ID: 42
+    Money Market: $100
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Minh Nguyen Account ID: 100
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $500
+    Short-Term Bond: $500
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Shyam Ramesh Account ID: 123
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Nithisha Sathishkumar Account ID: 1304
+    Money Market: $0
+    Prime Money Market: $400
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Shaun Cushman Account ID: 10000
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $400
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+

@@ -1,0 +1,5 @@
+ERROR: Cannot Withdraw negative amount of $ -200 from Shyam Ramesh Money Market
+ERROR: Not enough funds to withdraw 1000 from Shyam Ramesh Money Market
+ERROR: Cannot Withdraw/Transfer 200 from account: 123 fund: -1. Fund ID is invalid.
+ERROR: Cannot Withdraw/Transfer 100 from account: 123 fund: 9. Fund ID is invalid.
+ERROR: Not enough funds to withdraw 1200 from Minh Nguyen Short-Term Bond

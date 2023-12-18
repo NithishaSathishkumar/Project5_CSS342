@@ -1,0 +1,63 @@
+
+Transaction History for Account: 1304, Holder Nithisha Sathishkumar by fund.
+Prime Money Market: $200
+  D 1304 1 200
+Capital Value Fund: $400
+  D 1304 5 400
+Growth Equity Fund: $10000
+  D 1304 6 10000
+Growth Index Fund: $1000
+  D 1304 7 1000
+International Fund: $100
+  D 1304 8 100
+
+Transaction History for Account: 123, Holder Shyam Ramesh by fund.
+Growth Equity Fund: $1000
+  D 123 6 1000
+
+Account Balances:
+Tracy Pham Account ID: 42
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Shyam Ramesh Account ID: 123
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $1000
+    Growth Index Fund: $0
+    International Fund: $0
+
+Nithisha Sathishkumar Account ID: 1304
+    Money Market: $200
+    Prime Money Market: $200
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $400
+    Growth Equity Fund: $10000
+    Growth Index Fund: $1000
+    International Fund: $100
+
+Shaun Cushman Account ID: 10000
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+

@@ -1,0 +1,131 @@
+Transaction History for Account: 10000, Holder Shaun Cushman by fund.
+Money Market: $0
+  W 10000 0 200
+  D 10000 0 100
+  W 10000 0 100
+Prime Money Market: $0
+  D 10000 1 500
+  W 10000 1 400
+  W 10000 1 100
+Growth Index Fund: $200
+  T 10000 1 10000 7 200
+International Fund: $600
+  T 10000 0 10000 8 600
+
+Transaction History for Account: 1304, Holder Nithisha Sathishkumar by fund.
+Money Market: $400
+  D 1304 0 500
+  T 1304 0 1304 1 100
+  T 1304 0 1304 1 100
+  T 1304 0 1304 1 100
+Prime Money Market: $200
+  T 1304 0 1304 1 100
+  T 1304 0 1304 1 100
+  T 1304 0 1304 1 100
+  T 1304 1 1304 2 100
+Long-Term Bond: $100
+  T 1304 1 1304 2 100
+
+Transaction History for Account: 42, Holder Tracy Pham by fund.
+Money Market: $450
+  T 42 0 42 8 200
+  T 42 5 42 0 200
+  T 42 4 42 0 250
+Prime Money Market: $0
+  T 42 8 42 1 200
+  T 42 1 42 5 200
+500 Index Fund: $500
+  D 42 4 1000
+  T 42 4 42 0 250
+  T 42 4 42 7 250
+Capital Value Fund: $0
+  T 42 1 42 5 200
+  T 42 5 42 0 200
+Growth Index Fund: $250
+  T 42 4 42 7 250
+International Fund: $0
+  T 42 0 42 8 200
+  T 42 8 42 1 200
+
+Transaction History for Account: 10000, Holder Shaun Cushman by fund.
+Money Market: $0
+  W 10000 0 200
+  D 10000 0 100
+  W 10000 0 100
+Prime Money Market: $0
+  D 10000 1 500
+  W 10000 1 400
+  W 10000 1 100
+Growth Index Fund: $200
+  T 10000 1 10000 7 200
+International Fund: $600
+  T 10000 0 10000 8 600
+
+Transaction History for Account: 123, Holder Shyam Ramesh by fund.
+Prime Money Market: $0
+  T 123 1 123 7 -525 (Failed)
+
+Transaction History for Account: 2, Holder Minh Nguyen by fund.
+Money Market: $200
+  T 2 0 2 3 1000 (Failed)
+Prime Money Market: $100
+  D 2 1 100
+  T 2 1 2 8 1000 (Failed)
+
+Account Balances:
+Minh Nguyen Account ID: 2
+    Money Market: $200
+    Prime Money Market: $100
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Tracy Pham Account ID: 42
+    Money Market: $450
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $500
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $250
+    International Fund: $0
+
+Shyam Ramesh Account ID: 123
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Nithisha Sathishkumar Account ID: 1304
+    Money Market: $400
+    Prime Money Market: $200
+    Long-Term Bond: $100
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Shaun Cushman Account ID: 10000
+    Money Market: $0
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $200
+    International Fund: $600
+
+

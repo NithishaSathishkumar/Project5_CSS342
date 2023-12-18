@@ -1,0 +1,16 @@
+O 1304 Sathishkumar Nithisha
+D 1304 1 200 
+D 1304 5 400
+D 1304 7 1000
+D 1304 6 10000
+D 1304 8 100
+D 1304 9 10000
+O 42 Pham Tracy
+O 10000 Cushman Shaun
+O 123 Ramesh Shyam
+D 123 6 1000
+D 42 -1 200
+D 10000 5 -111
+D 100 4 400
+H 1304
+H 123

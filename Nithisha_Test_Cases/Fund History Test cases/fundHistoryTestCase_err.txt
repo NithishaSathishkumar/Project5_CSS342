@@ -1,0 +1,3 @@
+ERROR: Cannot Print Transactions by fund. Fund ID cannot be 9
+ERROR: Cannot Print Transactions by fund. Fund ID cannot be -3
+ERROR: Invalid Account ID 101. History by fund cannot be printed.

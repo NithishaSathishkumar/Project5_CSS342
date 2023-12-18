@@ -1,0 +1,15 @@
+1. The file OpenTestCase, tests for different lenght of id, invalid transaction type and 
+id being negative number. 
+
+2. The file depositTestCase, tests for invalid fund id, deposit to a account that is not in the 
+bst tree, multiple deposits, deposit negative amount and deposit into other clients account
+
+3. The file WithdrawTestCase, tests for linked funds success and fails, multiple withdraws from account, withdraw 
+nothing from account, negative value, withdraw more the in the account, 
+
+4. The file TransferTestCase, test for single account transfer and multiple account transfer, linked account transfer, 
+zero amount transfer, negative amount, and more money transfer than in the account
+
+5. The file FundHistoryTestCase, test for printing one fund for existing account, invalid fund id, negative amount, zero amount 
+
+6. 5. The file AccountHistoryTestCase, test for account history existing account, invalid account id 

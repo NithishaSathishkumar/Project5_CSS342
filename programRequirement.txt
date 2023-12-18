@@ -1,0 +1,136 @@
+/* Nithisha Sathishkumar
+* Novemeber 13, 2023
+* Project 1
+* Professor.Dimpsey
+*/
+
+
+/*
+Three Phases
+1. read in a string of transaction from a file into an in-memory queue.
+   Transaction can 
+        open accounts 
+        withdraw funds
+        deposit funds
+        transfer funds 
+        ask for the transactional history to be printed
+
+2. Read from the queue and process the transaction in order
+3. When Queue has been use the program will print out all 
+        open account
+        balances in those accounts
+
+Input:
+    file with transaction command in one line 
+    ERROR: 
+        try to withdraw more money than there is a fund
+        try to withdraw for a non-existent fund
+
+Client Account and funds:
+    Each CLIENT = 8 Funds 
+    They need to open an account to access the fund
+    200 dollar deposit at start of opening account in Money Market
+
+    0: Money Market
+    1: Prime Money Market
+    2: Long-Term Bond
+    3: Short-Term Bond
+    4: 500 Index Fund
+    5: Capital Value Fund
+    6: Growth Equity Fund
+    7: Growth Index Fund
+    8: Internation Fund
+
+Transactions
+    5 Types of transaction
+    All CLIENT accounts are opened with an open Transtion O
+
+    O: Open a client account. Each new account gets 200 in Monet Market fund (fund 0)
+    D: Deposit assests into a fund
+    W: Withdraw assests from a fund
+    T: Transfer assests between funds (can be funds owned by single client or transfers between clients)
+    H: Display the history of all transaction for a CLIENT account
+    F: Display the history for all transaction of a GIVEN FUND
+
+Format of input
+Transaction type, unique id(any size), client account and fund num, amount
+
+TRANSFER Transaction type, unique id(any size), from client account and fund num, unique id(for themself or other), to client account and fund num, amount
+
+Deposit for unique id to prime money market of $100
+D 1234 1 100
+
+Withdraw fom unique id from money market of $500
+W 1234 0 500
+
+Same person account
+Transfer from unique id from money market to unique id to prime market fund of $1000
+T 1234 0 1234 1 1000
+
+differnt persons 
+Transfer from unique id from money market to unique id to pmoney market fund of $1000
+T 1234 0 5678 0 1000
+
+History of all transactions of all account for unique id
+H 1234
+
+History of all transactions on 500 index fund for unique id
+F 1234 4
+
+Open an account for charles bowden(first and last name). use account id 6537
+O 6537 Bowden Charles
+
+Errors:
+    1. if open accout has same unique id as other account error
+    2. To much amount is withdrawed from account
+    3. Only this Letter should appear O, W, D, T, H, F
+    4. Client fund id should be 0, 1, 2, 3, 4, 5, 6, 7, 8
+
+    W 6543 6 10000 (the account only had $20 in growth equity fund)
+    D 7654 76 10000 (non existing client fund id)
+
+    //No negative balance should occur $0 is ok
+
+    EXCEPTION: withdrawing money from money market fune with insuffient dollars and it can be 
+               covered with dollard from other market fund owned by the client account
+
+               - only partial amount needed to cover the withdrawal, it need to move to money market account 
+            
+            ??if one is transferring between two linked funds (say, 0 and 1) then the transaction 
+            should only succeed if the fund being withdrawn from has enough funds. 
+            No other types of accounts are handled in this manner.
+
+            ERROR MESSAGE should be printed out to cerr
+            NO Other message should be printed out during phase 1 or phase 2
+
+Output
+    Phase 3
+        print out amount held in each account
+        create an intuitve and readeable output
+        -------------------------------------
+       | Name: Nithisha Sathishkumar        |
+       | Id: 1304                           |
+       | Money Market:              $100    |
+       | Prime Money Market:        $100    |
+       | Long-Term Bond:            $100    |
+       | Short-Term Bond:           $100    |
+       | 500 Index Fund:            $100    |
+       | Capital Value Fund:        $100    |
+       | Growth Equity Fund:        $100    |
+       | Growth Index Fund:         $100    |
+       | International Fund:        $100    |
+       |                                    |
+       | Total                      $900    |
+       --------------------------------------
+
+Data structure
+    Keep balances in ints 
+
+    MUST:
+        Use queue to read the transactions into during phase 1
+        All transactions should be read before processinh starts.
+        The queue ca be the STL queue
+
+        Client account should be stored in a binary seach tress
+
+*/

@@ -1,0 +1,4 @@
+ERROR: Invalid Fund ID 9 for Account 1304. Deposit/Transfer failed.
+ERROR: Invalid Fund ID -1 for Account 42. Deposit/Transfer failed.
+ERROR: Cannot deposit a negative amount to Capital Value Fund for Account Shaun Cushman
+ERROR: Account 100 not found. Deposit refused.

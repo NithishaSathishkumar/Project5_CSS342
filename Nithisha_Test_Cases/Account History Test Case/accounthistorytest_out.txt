@@ -1,0 +1,74 @@
+
+Transaction History for Account: 2, Holder Minh Nguyen by fund.
+Long-Term Bond: $0
+  D 2 2 0
+
+Transaction History for Account: 42, Holder Tracy Pham by fund.
+Money Market: $700
+  T 42 6 42 0 500
+Growth Equity Fund: $0
+  D 42 6 1000
+  W 42 6 500
+  T 42 6 42 0 500
+
+Transaction History for Account: 10000, Holder Shaun Cushman by fund.
+
+Transaction History for Account: 1304, Holder Nithisha Sathishkumar by fund.
+
+Account Balances:
+Minh Nguyen Account ID: 2
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Tracy Pham Account ID: 42
+    Money Market: $700
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Shyam Ramesh Account ID: 123
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Nithisha Sathishkumar Account ID: 1304
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+Shaun Cushman Account ID: 10000
+    Money Market: $200
+    Prime Money Market: $0
+    Long-Term Bond: $0
+    Short-Term Bond: $0
+    500 Index Fund: $0
+    Capital Value Fund: $0
+    Growth Equity Fund: $0
+    Growth Index Fund: $0
+    International Fund: $0
+
+

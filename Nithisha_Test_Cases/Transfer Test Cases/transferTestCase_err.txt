@@ -1,0 +1,5 @@
+ERROR: Account 10000 is already open. Transaction refused.
+ERROR: Unable to transfer -525 from Account: 123 Prime Money Market to Account: 123 Growth Index Fund
+ERROR: Account 123 Fund ID 10 is invalid. Transferal failed.
+ERROR: Unable to transfer 1000 from Account: 2 Money Market to Account: 2 Short-Term Bond
+ERROR: Unable to transfer 1000 from Account: 2 Prime Money Market to Account: 2 International Fund
